@@ -1,0 +1,149 @@
+/* 清除默认边距 */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* 通用样式 */
+a {
+  text-decoration: none;
+  color: #9a9494;
+}
+dl {
+  list-style: none;
+}
+html {
+  font-size: 10px;
+}
+.box {
+  min-height: 100%;
+  max-width: 64rem;
+  margin: 0 auto;
+}
+/* 主图部分 */
+.banner {
+  width: 100%;
+  height: 23rem;
+  background: url(../images/home-bg.png) repeat center;
+  background-size: 100%;
+}
+.banner > p {
+  color: white;
+  font-size: 2.6rem;
+  line-height: 0.5rem;
+  text-align: right;
+  padding-top: 5rem;
+  font-weight: 600;
+  letter-spacing: 0.3rem;
+}
+.banner > .search {
+  width: 90%;
+  height: 4rem;
+  background-color: white;
+  text-align: center;
+  border: 1px solid white 0.5;
+  border-radius: 2rem;
+  margin: 5.5rem 2rem 3rem 2rem;
+  overflow: hidden;
+}
+.banner > .search > .search-text {
+  width: 80%;
+  height: 4rem;
+  line-height: 4rem;
+  border: none;
+  outline: none;
+  font-size: 1.8rem;
+  float: left;
+  text-indent: 2rem;
+}
+.banner > .search > .btn {
+  width: 20%;
+  border: none;
+  font-size: 1.8rem;
+  float: right;
+  height: 4rem;
+  line-height: 4rem;
+  background-color: white;
+  color: #5ad4c6;
+}
+/* 主题部分 */
+main {
+  width: 100%;
+}
+main > dl {
+  width: 100%;
+  margin: 1rem;
+  float: left;
+  border-bottom: 1px solid rgba(240, 237, 237, 0.5);
+  padding-bottom: 2rem;
+  box-sizing: border-box;
+}
+main > dl > dt {
+  width: 100%;
+  height: 6rem;
+  padding: 1rem;
+}
+main > dl > dt > img {
+  width: 6rem;
+  height: 6rem;
+  float: left;
+}
+main > dl > dt > .title {
+  color: #3b3a3a;
+  font-size: 1.8rem;
+  float: left;
+  margin: 1.5rem 0 0 1.5rem;
+}
+main > dl > dd {
+  width: 100%;
+  line-height: 4rem;
+}
+main > dl > dd > a {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  border: 1px solid #f8f4f4;
+  border-radius: 2rem;
+  background-color: #f5f8f9;
+  padding: 0.5rem 1.9rem;
+  margin-left: 1rem;
+  float: left;
+  margin-top: 1rem;
+  box-sizing: border-box;
+}
+/* 底部部分 */
+footer {
+  width: 100%;
+  height: 7rem;
+  background-color: #1ed4cb;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+footer > a {
+  font-size: 1rem;
+  color: white;
+}
+footer > a > img {
+  width: 5rem;
+  height: 5rem;
+  float: left;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+footer > a > p {
+  float: left;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+}
+footer > a > .register {
+  border: 1px solid rgba(240, 237, 237, 0.5);
+  float: right;
+  padding: 0.8rem 1.8rem;
+  margin-right: 6rem;
+  border-radius: 2rem;
+  font-size: 1.8rem;
+  color: #5ad4c6;
+  background-color: white;
+  margin-top: 1.5rem;
+}

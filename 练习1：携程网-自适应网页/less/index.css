@@ -17,6 +17,11 @@ body {
   padding: 0 1rem;
   box-sizing: border-box;
 }
+.box {
+  max-width: 50rem;
+  min-width: 20rem;
+  margin: 0 auto;
+}
 /* 轮播图的设置 */
 .swiper {
   height: 12rem;
@@ -194,12 +199,13 @@ footer > .top > a {
 footer > .bottom {
   width: 100%;
   height: 4rem;
-  line-height: 4rem;
+  line-height: 3rem;
   text-align: center;
 }
 footer > .bottom > a {
   color: #575555;
   padding-left: 2.7rem;
+  font-size: 1.2rem;
 }
 footer > p {
   text-align: center;
