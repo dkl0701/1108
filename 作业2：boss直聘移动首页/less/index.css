@@ -14,6 +14,9 @@ dl {
 html {
   font-size: 10px;
 }
+*:focus {
+  outline: none;
+}
 .box {
   min-height: 100%;
   max-width: 64rem;
@@ -50,7 +53,6 @@ html {
   height: 4rem;
   line-height: 4rem;
   border: none;
-  outline: none;
   font-size: 1.8rem;
   float: left;
   text-indent: 2rem;

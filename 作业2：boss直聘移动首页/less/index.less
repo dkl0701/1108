@@ -18,6 +18,10 @@ html {
     font-size: 10px;
 }
 
+*:focus {
+    outline: none;
+}
+
 .box {
     min-height: 100%;
     max-width: 64rem;
@@ -25,12 +29,11 @@ html {
 }
 
 /* 主图部分 */
-.banner {
+.banner  {
     width: 100%;
     height: 23rem;
     background: url(../images/home-bg.png) repeat center;
     background-size: 100%;
-
     &>p {
         color: white;
         font-size: 2.6rem;
@@ -56,7 +59,7 @@ html {
             height: 4rem;
             line-height: 4rem;
             border: none;
-            outline: none;
+            // outline: none;
             font-size: 1.8rem;
             float: left;
             text-indent: 2rem;
@@ -74,7 +77,9 @@ html {
             color: rgb(90, 212, 198);
         }
     }
+   
 }
+
 
 /* 主题部分 */
 main {
